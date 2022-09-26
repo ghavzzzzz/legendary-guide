@@ -1,0 +1,23 @@
+h1{
+
+    font-size: 25px !important;
+}
+h1:hover{
+
+background-color: black;
+}
+button:hover{
+
+    background-color: lightblue;
+}
+canvas{
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+
+    from {background-color: red;}
+    to {background-color: orange;} 
+   }
